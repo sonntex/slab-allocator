@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.15)
 
 project(variti-slab-examples)
 
+set(CMAKE_CXX_FLAGS "-std=c++11")
 set(CMAKE_CXX_FLAGS_RELEASE "-g -O3")
 set(CMAKE_CXX_FLAGS_DEBUG "-g -O0")
 
